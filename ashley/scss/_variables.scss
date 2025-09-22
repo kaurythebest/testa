@@ -1,58 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-$font-1: 'Outfit', sans-serif;
+$font-1: 'Inter', sans-serif;
 
-$dark: rgba(0, 0, 0, 1);
-$light: rgba(248, 248, 248, 1);
-$accent: rgba(118, 193, 255, 1);
+$primary: #112250;
+$white: #EEEDF9;
+$accent: #112250;
 
-$dt-2: rgba(0, 0, 0, .02);
-$dt-5: rgba(0, 0, 0, .05);
-$dt-10: rgba(0, 0, 0, .1);
-$dt-20: rgba(0, 0, 0, .2);
-$dt-30: rgba(0, 0, 0, .3);
-$dt-40: rgba(0, 0, 0, .4);
-$dt-50: rgba(0, 0, 0, .5);
-$dt-60: rgba(0, 0, 0, .6);
-$dt-70: rgba(0, 0, 0, .7);
-$dt-80: rgba(0, 0, 0, .8);
-$dt-90: rgba(0, 0, 0, .9);
-$dt-95: rgba(0, 0, 0, .95);
+// Variations du bleu foncé
+$primary-light: rgba(17, 34, 80, 0.8);
+$primary-lighter: rgba(17, 34, 80, 0.6);
+$primary-lightest: rgba(17, 34, 80, 0.1);
 
-$lt-5: rgba(248, 248, 248, .05);
-$lt-10: rgba(248, 248, 248, .1);
-$lt-20: rgba(248, 248, 248, .2);
-$lt-30: rgba(248, 248, 248, .3);
-$lt-40: rgba(248, 248, 248, .4);
-$lt-50: rgba(248, 248, 248, .5);
-$lt-60: rgba(248, 248, 248, .6);
-$lt-70: rgba(248, 248, 248, .7);
-$lt-80: rgba(248, 248, 248, .8);
-$lt-90: rgba(248, 248, 248, .9);
-$lt-95: rgba(248, 248, 248, .95);
+// Variations du blanc
+$white-soft: rgba(238, 237, 249, 0.9);
+$white-muted: rgba(238, 237, 249, 0.7);
+$white-subtle: rgba(238, 237, 249, 0.1);
 
-$gs-5: rgba(242, 242, 242, 1);
-$gs-10: rgba(229, 229, 229, 1);
-$gs-20: rgba(204, 204, 204, 1);
-$gs-30: rgba(178, 178, 178, 1);
-$gs-40: rgba(153, 153, 153, 1);
-$gs-50: rgba(128, 128, 128, 1);
-$gs-60: rgba(102, 102, 102, 1);
-$gs-70: rgba(77, 77, 77, 1);
-$gs-80: rgba(51, 51, 51, 1);
-$gs-90: rgba(26, 26, 26, 1);
-$gs-95: rgba(13, 13, 13, 1);
-
-$h1: 86px;
-$h2: 68px;
-$h3: 42px;
+$h1: 72px;
+$h2: 56px;
+$h3: 40px;
 $h4: 28px;
 $h5: 20px;
-$h6: 18px;
+$h6: 16px;
 
 $text: 16px;
 
-$t-sm: .2s cubic-bezier(0, 0, 0.3642, 1);
-$t-md: .4s cubic-bezier(0, 0, 0.3642, 1);
-$t-lg: .6s cubic-bezier(0, 0, 0.3642, 1);
+$t-sm: .3s ease;
+$t-md: .5s ease;
+$t-lg: .8s ease;

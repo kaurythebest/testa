@@ -38,9 +38,9 @@ $(function () {
 
     ***************************/
 
-    var accent = 'rgba(255, 152, 0, 1)';
-    var dark = '#000';
-    var light = '#fff';
+    var accent = '#112250';
+    var primary = '#112250';
+    var white = '#EEEDF9';
 
     /***************************
 
@@ -693,7 +693,7 @@ $(function () {
                     ease: "none",
                 }, 0)
                 .to(symbol, {
-                    background: accent,
+                    background: primary,
                     ease: "none",
                 }, 0)
                 .reverse();
@@ -733,18 +733,18 @@ $(function () {
 
         $('.mil-accent-cursor').mouseover(function () {
             gsap.to($(cursor), .2, {
-                background: accent,
+                background: primary,
                 ease: 'sine',
             });
-            $(cursor).addClass('mil-accent');
+            $(cursor).addClass('mil-primary');
         });
 
         $('.mil-accent-cursor').mouseleave(function () {
             gsap.to($(cursor), .2, {
-                background: dark,
+                background: primary,
                 ease: 'sine',
             });
-            $(cursor).removeClass('mil-accent');
+            $(cursor).removeClass('mil-primary');
         });
 
         $('.mil-drag').mouseover(function () {
